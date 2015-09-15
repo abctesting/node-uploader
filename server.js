@@ -4,7 +4,7 @@ var url = require('url');
 function start() {
   function onRequest(request, response) {
     console.log('Request received.');
-    var pathname = url.parse(request.url).pathname
+    var pathname = url.parse(request.url).pathname;
     console.log('Request for ' + pathname + ' received.');
     response.writeHead(200, {'Content-Type': 'Text/Plain'});
     response.write('Hello World!');
