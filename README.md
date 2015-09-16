@@ -1,2 +1,4 @@
 # node-uploader
-A file uploader on Node.js
+## A simple image uploader on Node.js
+
+Run `node index` to run the server
