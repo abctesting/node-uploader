@@ -1,2 +1,3 @@
 #!/bin/bash
 node . > /dev/null 2> /dev/null < /dev/null &
+service nginx restart
