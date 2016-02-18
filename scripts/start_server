@@ -1,4 +1,2 @@
 #!/bin/bash
-cd /var/www/current
-pm2 stop .
-pm2 start .
+pm2 restart /var/www/current/
