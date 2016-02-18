@@ -1,3 +1,4 @@
 #!/bin/bash
+cd /var/www/current
 npm install
 npm ls
