@@ -22,3 +22,4 @@ hooks:
       runas: root
     - location: scripts/start_server
       timeout: 300
+      runas: root
