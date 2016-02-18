@@ -22,4 +22,3 @@ hooks:
       runas: root
     - location: scripts/start_server
       timeout: 300
-      runas: ec2-user
