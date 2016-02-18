@@ -2,7 +2,8 @@
   "name": "node-uploader",
   "version": "1.0.0",
   "dependencies": {
-    "formidable": "1.0.17"
+    "formidable": "1.0.17",
+    "pm2": "^1.0.1"
   },
   "engines": {
     "node": "0.12.x"
