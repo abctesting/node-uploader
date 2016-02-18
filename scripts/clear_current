@@ -1,2 +1,3 @@
 #!/bin/bash
-rm -rf /var/www/current/*
+rm -rf /var/www/current/
+mkdir /var/www/current/
