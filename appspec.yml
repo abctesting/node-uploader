@@ -12,7 +12,7 @@ permissions:
     type:
       - file
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
