@@ -10,7 +10,7 @@ function start(response, request) {
     '<meta http-equiv="Content-Type" '+
     'content="text/html; charset=UTF-8" />'+
     '</head>'+
-    '<body style="background-color: green">'+
+    '<body style="background-color: red">'+
     '<form action="/upload" enctype="multipart/form-data" '+
     'method="post">'+
     '<input type="file" name="upload"> <br>'+
